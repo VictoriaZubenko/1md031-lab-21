@@ -1,18 +1,92 @@
 
 
-@import url("reset.css");
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");
-
 body {
-    font-family: "Droid Serif", sans-serif;
-    font-size: 12pt;
+    font-family: Courier New;
+}
+.hamburgartext {
+    color: #ff2600;
+    font-weight:bold;
+
 }
 
-a, strong, em {
-    color: #0099ff;
+#burgerinfo {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border: 2px dashed #ff0000;
+}
+#img1 {
+    padding: 30px;
+    grid-column:1;
+}
+#img2 {
+    padding: 30px;
+    grid-column:2;
+}
+#img3 {
+    padding: 30px;
+    grid-column:3;
 }
 
-p.info,
-#login p {
-    width: 80%;
-    margin: 1vw auto;
+#contact {
+    background-color: #eac3e6;
+    margin: 20px;
+    border: 2px dashed #ff0000;
+
+}
+#rubrik {
+    margin: 20px;
+    height: 250px;
+    overflow:hidden;
+
+}
+
+.rubrik1{
+    position:absolute;
+    padding:20px;
+    margin-top:-650px;
+}
+.button:hover {
+    background-color: #97a8d3;
+    cursor:pointer;
+
+}
+.button {
+    margin: 15px;
+}
+
+p {
+   margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+
+#bild {
+    opacity: 0.5;
+    width:100%;
+    height:auto;
+}
+
+.wrapper{
+    display:grid;
+    grid-gap:10px;
+    grid-template-colums: 100px 100px 100px;
+
+}
+section div {
+    paddning:20px;
+    margin:30px;
+}
+
+section  {
+    paddning:20px;
+    margin:20px;
+}
+
+
+
+
+
