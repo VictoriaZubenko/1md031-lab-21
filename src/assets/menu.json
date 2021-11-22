@@ -1,0 +1,24 @@
+
+[
+  {
+    "name": "Korean BBQ Burger",
+    "kCal": 850,
+    "lactose": false,
+    "gluten": true,
+    "image": "img/maxbbq.jpg"
+  }
+  ,{
+  "name": "Salad Wrap Burger",
+  "kCal": 2,
+  "lactose": true,
+  "gluten": false,
+  "image": "img/Wrapburger.jpg"
+}
+  ,{
+  "name": "Crispy No Chicken",
+  "kCal": 2000,
+  "lactose": false,
+  "gluten": true,
+  "image": "img/chicken.jpg"
+}
+]

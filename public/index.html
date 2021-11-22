@@ -1,123 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<body>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Burgare</title>
-        <meta charset="utf-8"/>
-    </head>
-    <main>
-
-<section id="rubrik">
-    <img src="https://res.cloudinary.com/tf-lab/image/upload/w_1200,h_674,c_fill,g_auto:subject,q_auto,f_auto/restaurant/73d6d3da-fbae-4b4f-af5b-4b14c68bf3ee/70d4ae42-9bbe-4d46-b3bd-8ba4e7ed114c.jpg" id="bild" style="width: 1139px;">
-        <div class="rubrik1">
-        <h1>Välkommen till BurgerOnline</h1>
-        </div>
-
-
-</section>
-
-        <section id="burgerinfo" >
-    <header>
-        <h2>Select burgers </h2>
-    </header>
-        <p> This is where you execute your burger!!!! </p>
-
-<div class="wrapper">
-
-            <div style="float:left" id="img1">
-        <h3>Korean BBQ Burger</h3>
-        <img src = "img/maxbbq.jpg" style="margin-right: 15px; height: 200px; width: 200px;">
-                <ul class="hamburgartext" >
-                    <li>850 kCal</li>
-                    <li>Contains gluten</li>
-                </ul>
-            </div>
-
-            <div style="float:left" id="img2">
-                <h3>Salad Wrap Burger </h3>
-                <img src ="img/Wrapburger.jpg" style="margin-right: 15px; height: 200px; width: 200px"; >
-                <ul class="hamburgartext">
-                    <li>2 kCal</li>
-                    <li>Free from gluten</li>
-                </ul>
-            </div>
-
-            <div style="float:left" id="img3">
-                <h3>Crispy No Chicken </h3>
-                <img src ="img/chicken.jpg"  style="height: 200px; width: 200px";>
-                <ul class="hamburgartext" >
-                    <li>2000 kCal</li>
-                    <li>Vegan</li>
-                </ul>
-            </div>
-
-</div>
-
-    <div style="clear:left">
-        <h2>Customer information </h2>
-        <p>This is where you provide necessary information</p>
-    </div>
-            </section>
-
-        <section id="contact" >
-            <h2>Delivery infromation: </h2>
-            <form>
-                <p>
-                    <label for="firstname">Full name</label><br>
-                    <input type="text" id="firstname" name="fn" required="required" placeholder="First -and Last name">
-                </p>
-                <p>
-                    <label for="email">E-mail</label><br>
-                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-                </p>
-                <p>
-                    <label for="street">Street</label><br>
-                    <input type="number" id="street" name="st" required="required" placeholder="Street name">
-                </p>
-                <p>
-                    <label for="house">House</label><br>
-                    <input type="number" id="house" name="hn" required="required" placeholder="House number">
-                </p>
-
-                <p>
-                    <label for="payment">Payment options</label><br>
-                    <select id="payment" name="pm">
-                        <option>Swish</option>
-                        <option>Credit card</option>
-                        <option>Bank transaction</option>
-                        <option>Klarna</option>
-                    </select>
-                </p>
-
-                <br>
-
-                <p>Gender</p>
-
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label><br>
-
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label><br>
-
-                    <input type="radio" id="not" name="gender" value="not">
-                    <label for="not">Do not wish to provide</label><br>
-
-
-                <br>
-
-
-            </form>
-            <button type="submit" class="button">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Checkmark.svg/900px-Checkmark.svg.png" style=" height: 15px; width: 15px;">
-                Send Info
-            </button>
-        </section>
-
-    </main>
-        <footer>
-            <hr> &copy; 2018 Hypothetical Burgers Inc
-        </footer>
-</body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
-
